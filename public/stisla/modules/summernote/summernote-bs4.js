@@ -5225,8 +5225,8 @@ var Buttons = /** @class */ (function () {
                         },
                         callback: function ($button) {
                             var $recentColor = $button.find('.note-recent-color');
-                            $recentColor.css('background-color', '#FFFF00');
-                            $button.attr('data-backColor', '#FFFF00');
+                            $recentColor.css('background-color', '#edeca3F00');
+                            $button.attr('data-backColor', '#edeca3F00');
                         }
                     }),
                     _this.button({
@@ -7137,8 +7137,8 @@ $$1.summernote = $$1.extend($$1.summernote, {
         fontSizes: ['8', '9', '10', '11', '12', '14', '18', '24', '36'],
         // pallete colors(n x n)
         colors: [
-            ['#000000', '#424242', '#636363', '#9C9C94', '#CEC6CE', '#EFEFEF', '#F7F7F7', '#FFFFFF'],
-            ['#FF0000', '#FF9C00', '#FFFF00', '#00FF00', '#00FFFF', '#0000FF', '#9C00FF', '#FF00FF'],
+            ['#000000', '#424242', '#636363', '#9C9C94', '#CEC6CE', '#EFEFEF', '#F7F7F7', '#edeca3FFF'],
+            ['#FF0000', '#FF9C00', '#edeca3F00', '#00FF00', '#00FFFF', '#0000FF', '#9C00FF', '#FF00FF'],
             ['#F7C6CE', '#FFE7CE', '#FFEFC6', '#D6EFD6', '#CEDEE7', '#CEE7F7', '#D6D6E7', '#E7D6DE'],
             ['#E79C9C', '#FFC69C', '#FFE79C', '#B5D6A5', '#A5C6CE', '#9CC6EF', '#B5A5D6', '#D6A5BD'],
             ['#E76363', '#F7AD6B', '#FFD663', '#94BD7B', '#73A5AD', '#6BADDE', '#8C7BC6', '#C67BA5'],

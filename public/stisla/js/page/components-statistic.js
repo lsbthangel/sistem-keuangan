@@ -117,7 +117,7 @@ var myChart = new Chart(ctx, {
       backgroundColor: 'rgba(254,86,83,.7)',
       borderColor: 'rgba(254,86,83,.7)',
       borderWidth: 2.5,
-      pointBackgroundColor: '#ffffff',
+      pointBackgroundColor: '#edeca3fff',
       pointRadius: 4
     },{
       label: 'Statistics',
@@ -210,7 +210,7 @@ var myChart = new Chart(ctx, {
 $('#visitorMap').vectorMap(
 {
   map: 'world_en',
-  backgroundColor: '#ffffff',
+  backgroundColor: '#edeca3fff',
   borderColor: '#f2f2f2',
   borderOpacity: .8,
   borderWidth: 1,

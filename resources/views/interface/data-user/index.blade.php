@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="section-header">
-  <h1>Data User</h1>
+  <h1>Data Pengguna</h1>
 </div>
 
 <div class="section-body">
@@ -27,9 +27,9 @@
               <thead>
                 <tr>
                   <th class="text-center">No</th>
-                  <th>ID User</th>
+                  <th>ID Pengguna</th>
                   <th>Nama</th>
-                  <th>User Name</th>
+                  <th>Nama Pengguna</th>
                   <th>Jabatan</th>
                   <th>Aksi</th>
                 </tr>

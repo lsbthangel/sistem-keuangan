@@ -19,7 +19,7 @@
 /* Global Event Restyling
 --------------------------------------------------------------------------------------------------*/
 .fc-event {
-  background: #fff !important;
+  background: #edeca3 !important;
   color: #000 !important;
   page-break-inside: avoid; }
 
@@ -35,7 +35,7 @@
 .fc tbody,
 .fc-row {
   border-color: #ccc !important;
-  background: #fff !important; }
+  background: #edeca3 !important; }
 
 /* kill the overlaid, absolutely-positioned components */
 /* common... */

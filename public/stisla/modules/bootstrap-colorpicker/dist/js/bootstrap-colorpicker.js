@@ -304,7 +304,7 @@ var defaults = {
    * @example
    *  {
    *   'black': '#000000',
-   *   'white': '#ffffff',
+   *   'white': '#edeca3fff',
    *   'red': '#FF0000',
    *   'default': '#777777',
    *   'primary': '#337ab7',
@@ -2895,9 +2895,9 @@ tinycolor.isReadable = function(color1, color2, wcag2) {
 // Optionally returns Black or White if the most readable color is unreadable.
 // *Example*
 //    tinycolor.mostReadable(tinycolor.mostReadable("#123", ["#124", "#125"],{includeFallbackColors:false}).toHexString(); // "#112255"
-//    tinycolor.mostReadable(tinycolor.mostReadable("#123", ["#124", "#125"],{includeFallbackColors:true}).toHexString();  // "#ffffff"
+//    tinycolor.mostReadable(tinycolor.mostReadable("#123", ["#124", "#125"],{includeFallbackColors:true}).toHexString();  // "#edeca3fff"
 //    tinycolor.mostReadable("#a8015a", ["#faf3f3"],{includeFallbackColors:true,level:"AAA",size:"large"}).toHexString(); // "#faf3f3"
-//    tinycolor.mostReadable("#a8015a", ["#faf3f3"],{includeFallbackColors:true,level:"AAA",size:"small"}).toHexString(); // "#ffffff"
+//    tinycolor.mostReadable("#a8015a", ["#faf3f3"],{includeFallbackColors:true,level:"AAA",size:"small"}).toHexString(); // "#edeca3fff"
 tinycolor.mostReadable = function(baseColor, colorList, args) {
     var bestColor = null;
     var bestScore = 0;
@@ -2921,7 +2921,7 @@ tinycolor.mostReadable = function(baseColor, colorList, args) {
     }
     else {
         args.includeFallbackColors=false;
-        return tinycolor.mostReadable(baseColor,["#fff", "#000"],args);
+        return tinycolor.mostReadable(baseColor,["#edeca3", "#000"],args);
     }
 };
 

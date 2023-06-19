@@ -2,7 +2,7 @@
 
 $('#visitorMap').vectorMap({
   map: 'world_en',
-  backgroundColor: '#ffffff',
+  backgroundColor: '#edeca3fff',
   borderColor: '#f2f2f2',
   borderOpacity: .8,
   borderWidth: 1,
@@ -42,7 +42,7 @@ $('#visitorMap').vectorMap({
 });
 $('#visitorMap2').vectorMap({
   map: 'world_en',
-  backgroundColor: '#ffffff',
+  backgroundColor: '#edeca3fff',
   borderColor: '#f2f2f2',
   borderOpacity: .8,
   borderWidth: 1,
@@ -66,7 +66,7 @@ $('#visitorMap2').vectorMap({
 });
 $('#visitorMap3').vectorMap({
   map: 'indonesia_id',
-  backgroundColor: '#ffffff',
+  backgroundColor: '#edeca3fff',
   borderColor: '#f2f2f2',
   borderOpacity: .8,
   borderWidth: 1,

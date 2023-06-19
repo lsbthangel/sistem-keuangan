@@ -11,7 +11,7 @@
     left:0;
     top:0;
     z-index:10;
-    background-color:#fff;
+    background-color:#edeca3;
     display: none;
     opacity: 0.8;
 }
@@ -23,7 +23,7 @@
     left:0;
     top:0;
     z-index:16;
-    color: #fff;
+    color: #edeca3;
 }
 .chocolat-zoomable .chocolat-img{
     cursor : zoom-in;

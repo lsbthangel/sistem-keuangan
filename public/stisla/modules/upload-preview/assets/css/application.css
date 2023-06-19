@@ -56,7 +56,7 @@ hr {
   height: 400px;
   position: relative;
   overflow: hidden;
-  background-color: #ffffff;
+  background-color: #edeca3fff;
   color: #ecf0f1; }
   #image-preview input, #callback-preview input {
     line-height: 200px;
@@ -83,7 +83,7 @@ hr {
     text-align: center; }
 
 #audio-preview {
-  background: #ffffff;
+  background: #edeca3fff;
   width: auto;
   padding: 20px;
   display: inline-block; }

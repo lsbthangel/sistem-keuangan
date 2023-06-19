@@ -77,7 +77,7 @@
     cursoropacitymax: 1,
     cursorcolor: "#424242",
     cursorwidth: "6px",
-    cursorborder: "1px solid #fff",
+    cursorborder: "1px solid #edeca3",
     cursorborderradius: "5px",
     scrollspeed: 40,
     mousescrollstep: 9 * 3,
@@ -3310,7 +3310,7 @@
         margin: 0
       });
       var bkg = self.win.css("backgroundColor");
-      if ("" === bkg || /transparent|rgba\(0, 0, 0, 0\)|rgba\(0,0,0,0\)/.test(bkg)) self.win.css("backgroundColor", "#fff");
+      if ("" === bkg || /transparent|rgba\(0, 0, 0, 0\)|rgba\(0,0,0,0\)/.test(bkg)) self.win.css("backgroundColor", "#edeca3");
       self.rail.css({
         zIndex: globalmaxzindex + 101
       });

@@ -33,8 +33,8 @@ THE SOFTWARE.
 .cm-s-xq-dark span.cm-keyword { color: #FFBD40; }
 .cm-s-xq-dark span.cm-atom { color: #6C8CD5; }
 .cm-s-xq-dark span.cm-number { color: #164; }
-.cm-s-xq-dark span.cm-def { color: #FFF; text-decoration:underline; }
-.cm-s-xq-dark span.cm-variable { color: #FFF; }
+.cm-s-xq-dark span.cm-def { color: #edeca3; text-decoration:underline; }
+.cm-s-xq-dark span.cm-variable { color: #edeca3; }
 .cm-s-xq-dark span.cm-variable-2 { color: #EEE; }
 .cm-s-xq-dark span.cm-variable-3, .cm-s-xq-dark span.cm-type { color: #DDD; }
 .cm-s-xq-dark span.cm-property {}
@@ -42,11 +42,11 @@ THE SOFTWARE.
 .cm-s-xq-dark span.cm-comment { color: gray; }
 .cm-s-xq-dark span.cm-string { color: #9FEE00; }
 .cm-s-xq-dark span.cm-meta { color: yellow; }
-.cm-s-xq-dark span.cm-qualifier { color: #FFF700; }
+.cm-s-xq-dark span.cm-qualifier { color: #edeca3700; }
 .cm-s-xq-dark span.cm-builtin { color: #30a; }
 .cm-s-xq-dark span.cm-bracket { color: #cc7; }
 .cm-s-xq-dark span.cm-tag { color: #FFBD40; }
-.cm-s-xq-dark span.cm-attribute { color: #FFF700; }
+.cm-s-xq-dark span.cm-attribute { color: #edeca3700; }
 .cm-s-xq-dark span.cm-error { color: #f00; }
 
 .cm-s-xq-dark .CodeMirror-activeline-background { background: #27282E; }

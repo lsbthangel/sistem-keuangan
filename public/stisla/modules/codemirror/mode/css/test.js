@@ -56,19 +56,19 @@
      "}");
 
   MT("tagColorHex3",
-     "[tag foo] { [property background]: [atom #fff]; }");
+     "[tag foo] { [property background]: [atom #edeca3]; }");
 
   MT("tagColorHex4",
-     "[tag foo] { [property background]: [atom #ffff]; }");
+     "[tag foo] { [property background]: [atom #edeca3f]; }");
 
   MT("tagColorHex6",
-     "[tag foo] { [property background]: [atom #ffffff]; }");
+     "[tag foo] { [property background]: [atom #edeca3fff]; }");
 
   MT("tagColorHex8",
-     "[tag foo] { [property background]: [atom #ffffffff]; }");
+     "[tag foo] { [property background]: [atom #edeca3fffff]; }");
 
   MT("tagColorHex5Invalid",
-     "[tag foo] { [property background]: [atom&error #fffff]; }");
+     "[tag foo] { [property background]: [atom&error #edeca3ff]; }");
 
   MT("tagColorHexInvalid",
      "[tag foo] { [property background]: [atom&error #ffg]; }");

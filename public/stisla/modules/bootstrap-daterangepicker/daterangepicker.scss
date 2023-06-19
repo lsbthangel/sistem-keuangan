@@ -20,7 +20,7 @@ $arrow-size:     7px !default;
 //
 // Colors
 $daterangepicker-color:                      inherit !default;
-$daterangepicker-bg-color:                   #fff !default;
+$daterangepicker-bg-color:                   #edeca3 !default;
 
 $daterangepicker-cell-color:                 $daterangepicker-color !default;
 $daterangepicker-cell-border-color:          transparent !default;
@@ -34,13 +34,13 @@ $daterangepicker-in-range-color:             #000 !default;
 $daterangepicker-in-range-border-color:      transparent !default;
 $daterangepicker-in-range-bg-color:          #ebf4f8 !default;
 
-$daterangepicker-active-color:               #fff !default;
+$daterangepicker-active-color:               #edeca3 !default;
 $daterangepicker-active-bg-color:            #357ebd !default;
 $daterangepicker-active-border-color:        transparent !default;
 
 $daterangepicker-unselected-color:           #999 !default;
 $daterangepicker-unselected-border-color:    transparent !default;
-$daterangepicker-unselected-bg-color:        #fff !default;
+$daterangepicker-unselected-bg-color:        #edeca3 !default;
 
 //
 // daterangepicker
@@ -100,7 +100,7 @@ $daterangepicker-ranges-border-size:          1px !default;
 $daterangepicker-ranges-border-color:         $daterangepicker-ranges-bg-color !default;
 $daterangepicker-ranges-border-radius:        $daterangepicker-border-radius !default;
 
-$daterangepicker-ranges-hover-color:          #fff !default;
+$daterangepicker-ranges-hover-color:          #edeca3 !default;
 $daterangepicker-ranges-hover-bg-color:       $daterangepicker-ranges-color !default;
 $daterangepicker-ranges-hover-border-size:    $daterangepicker-ranges-border-size !default;
 $daterangepicker-ranges-hover-border-color:   $daterangepicker-ranges-hover-bg-color !default;

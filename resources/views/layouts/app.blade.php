@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="csrf-token" content="{{ Session::token() }}">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-    <title>P.T Saputra Tirtha Amertha &mdash; Dashboard</title>
+    <title>Lavinavera &mdash; Halaman Utama</title>
     <link rel="icon" href="{{ asset('img/icon.png') }}">
 
     <!-- General CSS Files -->
@@ -53,7 +53,7 @@
                             <a href="{{ route('logout') }}"
                                 onclick="event.preventDefault(); document.getElementById('logout-form').submit();"
                                 class="dropdown-item has-icon text-danger">
-                                <i class="fas fa-sign-out-alt"></i> Logout
+                                <i class="fas fa-sign-out-alt"></i> Keluar
                             </a>
                             <form action="{{ route('logout') }}" method="POST" id="logout-form" style="display:none;">
                                 {{ csrf_field() }}
@@ -78,7 +78,7 @@
                         <li class="{{ Request::route()->getName() == 'home' ? ' active' : '' }}">
                             <a class="nav-link" href="{{route('home')}}">
                                 <i class="fas fa-tachometer-alt"></i>
-                                <span>Dashboard</span>
+                                <span>Halaman Utama</span>
                             </a>
                         </li>
 
@@ -153,7 +153,7 @@
                         <li class="{{ Request::route()->getName() == 'data-user.index' ? ' active' : '' }}">
                             <a class="nav-link" href="{{ route('data-user.index') }}">
                                 <i class="fas fa-user-plus"></i>
-                                <span>Data User</span>
+                                <span>Data Pengguna</span>
                             </a>
                         </li>
                         <li class="{{ Request::route()->getName() == 'laporan.index' ? ' active' : '' }}">
@@ -175,8 +175,8 @@
             <footer class="main-footer">
                 <div class="footer-left">
                     Copyright &copy; {{ date('Y') }}
-                    <div class="bullet"></div> P.T Saputra Tirtha Amertha | By <a href="#">Dharma Prabawa
-                        Sista</a>
+                    <div class="bullet"></div> Lavinavera | Oleh <a href="#">Akuntansi Universitas Diponegoro
+                        </a>
                 </div>
                 <div class="footer-right">
 

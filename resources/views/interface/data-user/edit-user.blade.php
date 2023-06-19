@@ -12,7 +12,7 @@
       @method('PUT')
       <div class="card-body">
         <div class="form-group">
-          <label>Nama User</label>
+          <label>Nama Pengguna</label>
           <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name"
             value="{{ $datas->name }}" required autocomplete="name" autofocus>
           @error('name')
@@ -23,7 +23,7 @@
         </div>
 
         <div class="form-group">
-          <label>Username</label>
+          <label>Nama Pengguna</label>
           <input id="username" type="text" class="form-control @error('username') is-invalid @enderror" name="username"
             value="{{ $datas->username }}" required autocomplete="username" autofocus>
           @error('username')

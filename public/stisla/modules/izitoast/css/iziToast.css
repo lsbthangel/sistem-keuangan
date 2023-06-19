@@ -411,7 +411,7 @@
   border-color: #565c70;
 }
 .iziToast.iziToast-theme-dark .iziToast-title {
-  color: #fff;
+  color: #edeca3;
 }
 .iziToast.iziToast-theme-dark .iziToast-message {
   color: rgba(255,255,255,0.7);
@@ -422,7 +422,7 @@
   background-size: 8px;
 }
 .iziToast.iziToast-theme-dark .iziToast-icon {
-  color: #fff;
+  color: #edeca3;
 }
 .iziToast.iziToast-theme-dark .iziToast-icon.ico-info {
   background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAflBMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////vroaSAAAAKXRSTlMA6PsIvDob+OapavVhWRYPrIry2MxGQ97czsOzpJaMcE0qJQOwVtKjfxCVFeIAAAI3SURBVFjDlJPZsoIwEETnCiGyb8q+qmjl/3/wFmGKwjBROS9QWbtnOqDDGPq4MdMkSc0m7gcDDhF4NRdv8NoL4EcMpzoJglPl/KTDz4WW3IdvXEvxkfIKn7BMZb1bFK4yZFqghZ03jk0nG8N5NBwzx9xU5cxAg8fXi20/hDdC316lcA8o7t16eRuQvW1XGd2d2P8QSHQDDbdIII/9CR3lUF+lbucfJy4WfMS64EJPORnrZxtfc2pjJdnbuags3l04TTtJMXrdTph4Pyg4XAjugAJqMDf5Rf+oXx2/qi4u6nipakIi7CsgiuMSEF9IGKg8heQJKkxIfFSUU/egWSwNrS1fPDtLfon8sZOcYUQml1Qv9a3kfwsEUyJEMgFBKzdV8o3Iw9yAjg1jdLQCV4qbd3no8yD2GugaC3oMbF0NYHCpJYSDhNI5N2DAWB4F4z9Aj/04Cna/x7eVAQ17vRjQZPh+G/kddYv0h49yY4NWNDWMMOMUIRYvlTECmrN8pUAjo5RCMn8KoPmbJ/+Appgnk//Sy90GYBCGgm7IAskQ7D9hFKW4ApB1ei3FSYD9PjGAKygAV+ARFYBH5BsVgG9kkBSAQWKUFYBRZpkUgGVinRWAdUZQDABBQdIcAElDVBUAUUXWHQBZx1gMAGMprM0AsLbVXHsA5trZe93/wp3svQ0YNb/jWV3AIOLsMtlznSNOH7JqjOpDVh7z8qCZR10ftvO4nxeOvPLkpSuvfXnxzKtvXr7j+v8C5ii0e71At7cAAAAASUVORK5CYII=") no-repeat 50% 50%;
@@ -447,7 +447,7 @@
 .iziToast.iziToast-theme-dark .iziToast-buttons > a,
 .iziToast.iziToast-theme-dark .iziToast-buttons > button,
 .iziToast.iziToast-theme-dark .iziToast-buttons > input {
-  color: #fff;
+  color: #edeca3;
   background: rgba(255,255,255,0.1);
 }
 .iziToast.iziToast-theme-dark .iziToast-buttons > a:hover,

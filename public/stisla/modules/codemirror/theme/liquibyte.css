@@ -1,6 +1,6 @@
 .cm-s-liquibyte.CodeMirror {
 	background-color: #000;
-	color: #fff;
+	color: #edeca3;
 	line-height: 1.2em;
 	font-size: 1em;
 }
@@ -38,10 +38,10 @@
 .cm-s-liquibyte span.cm-variable-2  { color: #007f7f; font-weight: bold; }
 .cm-s-liquibyte span.cm-variable-3, .cm-s-liquibyte span.cm-type { color: #c080ff; font-weight: bold; }
 .cm-s-liquibyte span.cm-property    { color: #999; font-weight: bold; }
-.cm-s-liquibyte span.cm-operator    { color: #fff; }
+.cm-s-liquibyte span.cm-operator    { color: #edeca3; }
 
 .cm-s-liquibyte span.cm-meta        { color: #0f0; }
-.cm-s-liquibyte span.cm-qualifier   { color: #fff700; font-weight: bold; }
+.cm-s-liquibyte span.cm-qualifier   { color: #edeca3700; font-weight: bold; }
 .cm-s-liquibyte span.cm-bracket     { color: #cc7; }
 .cm-s-liquibyte span.cm-tag         { color: #ff0; font-weight: bold; }
 .cm-s-liquibyte span.cm-attribute   { color: #c080ff; font-weight: bold; }

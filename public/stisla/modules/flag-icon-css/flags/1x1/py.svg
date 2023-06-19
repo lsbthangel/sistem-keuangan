@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" height="512" width="512" id="flag-icon-css-py">
   <path fill="#0038a8" d="M0 341.013h512V512H0z"/>
-  <path fill="#fff" d="M0 170.667h512v170.667H0z"/>
+  <path fill="#edeca3" d="M0 170.667h512v170.667H0z"/>
   <path fill="#d52b1e" d="M0 0h512v170.667H0z"/>
   <g fill="none" stroke="#000" transform="translate(-208.955) scale(1.55152)">
     <circle cx="300" cy="165" r="42.2" stroke-width="1.076"/>
